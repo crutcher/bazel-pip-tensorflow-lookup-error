@@ -4,16 +4,18 @@
 
 Constructing / testing the environment with `virtualenv` works:
 
-    virtualenv -p python3.7 ve
-    source ve/bin/activate
-    pip-sync
+    $ virtualenv -p python3.7 ve
+    $ source ve/bin/activate
+    $ pip-sync
 
 
 ## Install with bazel ...
 
 Syncing bazel with `pip_install` does not:
 
-    bazel sync
+    $ bazel --version
+    bazel 3.3.1
+    $ bazel sync
 
 Which blows up with this::
 
