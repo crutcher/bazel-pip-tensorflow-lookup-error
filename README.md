@@ -1,5 +1,7 @@
 # bazel-pip-tensorflow-lookup-error
 
+`piptool` is bundling an old version of `pip==9.0.3`; which cannot find `tensorflow==2.3.0`
+
 ## Install with virtualenv + pip ...
 
 Constructing / testing the environment with `virtualenv` works:
